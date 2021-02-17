@@ -2,6 +2,11 @@
 > Summary description here.
 
 
+```python
+%load_ext autoreload
+%autoreload 2
+```
+
 This file will become your README and also the index of your documentation.
 
 ## Install
@@ -19,6 +24,17 @@ say_hello("Rick")
 
 
 
-    'Hello Rick!'
+    'Hello Rick'
+
+
+
+```python
+currency_convert("105")
+```
+
+
+
+
+    '$105'
 
 

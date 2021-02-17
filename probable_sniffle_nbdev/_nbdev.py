@@ -3,9 +3,11 @@
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"say_hello": "00_core.ipynb",
-         "HelloSayer": "00_core.ipynb"}
+         "HelloSayer": "00_core.ipynb",
+         "currency_convert": "01_utils.ipynb"}
 
-modules = ["core.py"]
+modules = ["core.py",
+           "utils.py"]
 
 doc_url = "https://ricklamers.github.io/probable_sniffle_nbdev/"
 
